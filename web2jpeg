@@ -1,0 +1,3 @@
+do this is the terminal of the folder that has the webp images
+
+for x in ls *.webp; do  ffmpeg -i $x ${x%.webp}.jpg; done
